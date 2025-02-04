@@ -1,0 +1,7 @@
+theme: jekyll-theme-architect
+layout: default
+markdown: kramdown
+kramdown:
+  toc_levels: 1..2
+title: "TCSinger: Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control"
+
