@@ -1,0 +1,61 @@
+/* Publication details and narrow-screen sample tables. */
+.publication-meta {
+  --publication-ink: #243b53;
+  --publication-accent: #245a96;
+  --publication-border: #dce5ee;
+  --publication-surface: #fff;
+  color: var(--publication-ink);
+  font: 1rem/1.55 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin: 1rem 0 1.35rem;
+}
+.publication-meta .publication-venue { margin: 0 0 .35rem; font-weight: 700; }
+.publication-meta .publication-authors { margin: 0 0 .85rem; }
+.publication-author { display: inline-block; white-space: nowrap; }
+.publication-meta a { color: var(--publication-accent); }
+.publication-meta a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+}
+.publication-links a {
+  background: var(--publication-surface);
+  border: 1px solid var(--publication-border);
+  border-radius: .45rem;
+  padding: .35rem .75rem;
+  font-size: .9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.publication-links a:hover { text-decoration: underline; }
+
+.demo-architect { padding-block: clamp(1.7rem, 4vw, 3rem); }
+.demo-architect h1 {
+  width: auto;
+  max-width: 100%;
+  font: 650 clamp(1.65rem, 4.2vw, 3.15rem)/1.15 system-ui, -apple-system, sans-serif;
+  letter-spacing: -.02em;
+}
+.demo-architect .inner, #content-wrapper > .inner { max-width: calc(100% - 2rem); }
+.demo-architect .publication-meta {
+  --publication-ink: #fff;
+  --publication-accent: #fff;
+  --publication-border: #ffffff80;
+  --publication-surface: #12375e38;
+  margin-bottom: 0;
+}
+#main-content { float: none; width: 100%; }
+.demo-footer { border-top: 1px solid #dce5ee; margin-top: 2rem; padding-top: 1rem; }
+#main-content pre { max-width: 100%; overflow-x: auto; }
+#main-content :not(pre) > code { overflow-wrap: anywhere; }
+
+@media (max-width: 767px) {
+  #main-content table, .main-content table, .container table {
+    display: block;
+    box-sizing: border-box;
+    width: 100% !important;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  #main-content pre, .main-content pre, .container pre { max-width: 100%; overflow-x: auto; }
+}
