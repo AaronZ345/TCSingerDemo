@@ -35,8 +35,11 @@
 .demo-architect h1 {
   width: auto;
   max-width: 100%;
-  font: 650 clamp(1.65rem, 4.2vw, 3.15rem)/1.15 system-ui, -apple-system, sans-serif;
-  letter-spacing: -.02em;
+  font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
+  font-size: clamp(1.65rem, 4.2vw, 3.15rem);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: normal;
 }
 .demo-architect .inner, #content-wrapper > .inner { max-width: calc(100% - 2rem); }
 .demo-architect .publication-meta {
@@ -71,6 +74,15 @@
   background: #f6f8fa;
   border: 1px solid #dce5ee;
   border-radius: .4rem;
+}
+.citation-block pre > code {
+  display: block;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  font: inherit;
 }
 .citation-copy {
   color: #245a96;
