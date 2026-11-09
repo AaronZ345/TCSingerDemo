@@ -972,3 +972,31 @@ Obviously, TCSinger can control different techniques for each phoneme.
 </table>
 
 ---
+
+# Citation
+
+<div class="citation-block">
+  <button type="button" class="citation-copy">Copy BibTeX</button><span class="citation-status" role="status"></span>
+  <pre><code>@inproceedings{zhang-etal-2024-tcsinger,
+    title = &quot;{TCS}inger: Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control&quot;,
+    author = &quot;Zhang, Yu  and
+      Jiang, Ziyue  and
+      Li, Ruiqi  and
+      Pan, Changhao  and
+      He, Jinzheng  and
+      Huang, Rongjie  and
+      Wang, Chuxin  and
+      Zhao, Zhou&quot;,
+    editor = &quot;Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung&quot;,
+    booktitle = &quot;Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing&quot;,
+    month = nov,
+    year = &quot;2024&quot;,
+    address = &quot;Miami, Florida, USA&quot;,
+    publisher = &quot;Association for Computational Linguistics&quot;,
+    url = &quot;https://aclanthology.org/2024.emnlp-main.117/&quot;,
+    doi = &quot;10.18653/v1/2024.emnlp-main.117&quot;,
+    pages = &quot;1960--1975&quot;
+}</code></pre>
+</div>
